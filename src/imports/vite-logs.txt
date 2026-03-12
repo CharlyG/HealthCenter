@@ -1,0 +1,54 @@
+[vite] hot updated: /src/styles/index.css
+[vite] hot updated: /src/app/pages/Dashboard.tsx
+[vite] hot updated: /src/app/pages/CareConnect.tsx
+[vite] hot updated: /src/app/pages/Scheduling.tsx
+[vite] hot updated: /src/app/pages/PatientManagement.tsx
+[vite] hot updated: /src/app/pages/Admissions.tsx
+[vite] hot updated: /src/app/pages/Hospice.tsx
+[vite] hot updated: /src/app/pages/Monitor.tsx
+[vite] hot updated: /src/app/pages/PlatformConfig.tsx
+[vite] hot updated: /src/app/components/Root.tsx
+[vite] hot updated: /src/app/components/Sidebar.tsx
+6:12:51 PM [vite] (client) hmr invalidate /src/app/context/AuthContext.tsx Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+6:12:51 PM [vite] (client) hmr update /src/styles/index.css, /src/app/App.tsx, /src/app/pages/Dashboard.tsx, /src/app/pages/Login.tsx, /src/app/pages/PlatformConfig.tsx, /src/app/components/Root.tsx, /src/app/context/ConfigContext.tsx, /src/app/components/IntegrationsConfig.tsx
+6:12:51 PM [vite] (client) hmr invalidate /src/app/context/ConfigContext.tsx Could not Fast Refresh ("useConfig" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+6:12:51 PM [vite] (client) hmr update /src/styles/index.css, /src/app/pages/Dashboard.tsx, /src/app/pages/CareConnect.tsx, /src/app/pages/Scheduling.tsx, /src/app/pages/PatientManagement.tsx, /src/app/pages/Admissions.tsx, /src/app/pages/Hospice.tsx, /src/app/pages/Monitor.tsx, /src/app/pages/PlatformConfig.tsx, /src/app/components/Root.tsx, /src/app/components/Sidebar.tsx
+[Login] useEffect triggered - authLoading: false user: false
+[Login] Login page mounted
+[Auth] signIn called for: admin@demo.com
+[DataGateway] Server health check: {
+  "code": 401,
+  "message": "Missing authorization header"
+}
+[Auth] State change event: SIGNED_IN has session: true
+[Auth] SIGNED_IN event - setting user and profile
+[Auth] SIGNED_IN event - using fast profile
+[Auth] signIn successful, setting user and profile
+[Auth] Using fast profile from metadata
+[Auth] signIn completed - user should be set
+[Login] useEffect triggered - authLoading: false user: true
+[Login] User is authenticated, redirecting to /
+[TokenRefresh] Auto-refresh timer started (every 50 minutes)
+[ConfigContext] Loading configuration for org: org-demo
+[DataGateway] Making API call to /modules with token: eyJhbGciOiJFUzI1NiIs...
+[DataGateway] Making API call to /features with token: eyJhbGciOiJFUzI1NiIs...
+[DataGateway] Making API call to /module-settings/org-demo with token: eyJhbGciOiJFUzI1NiIs...
+[DataGateway] Making API call to /feature-settings/org-demo with token: eyJhbGciOiJFUzI1NiIs...
+[DataGateway] API call to /features returned status: 401
+[DataGateway] Auth error (401) from server for /features
+[Root] Auth error detected, clearing session and redirecting to login
+[ConfigContext] Auth error during config load - session will be cleared
+[DataGateway] API call to /modules returned status: 401
+[DataGateway] Auth error (401) from server for /modules
+[Root] Auth error already being handled, skipping duplicate
+[DataGateway] API call to /module-settings/org-demo returned status: 401
+[DataGateway] Auth error (401) from server for /module-settings/org-demo
+[Root] Auth error already being handled, skipping duplicate
+[DataGateway] API call to /feature-settings/org-demo returned status: 401
+[DataGateway] Auth error (401) from server for /feature-settings/org-demo
+[Root] Auth error already being handled, skipping duplicate
+[Auth] State change event: SIGNED_OUT has session: false
+[Auth] User signed out
+[TokenRefresh] Auto-refresh timer cleared
+[Login] useEffect triggered - authLoading: false user: false
+[Login] Login page mounted

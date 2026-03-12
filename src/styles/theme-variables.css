@@ -1,0 +1,87 @@
+/**
+ * Theme CSS Variables
+ * CSS custom properties for light and dark themes
+ */
+
+:root {
+  /* Light theme (default) */
+  --surface-default: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-subtle: #f5f5f5;
+  --surface-hover: #f5f5f5;
+  --surface-active: #e5e5e5;
+  
+  --text-primary: #171717;
+  --text-secondary: #525252;
+  --text-muted: #a3a3a3;
+  --text-inverse: #ffffff;
+  --text-link: #2563eb;
+  
+  --border-default: #e5e5e5;
+  --border-subtle: #f5f5f5;
+  --border-strong: #d4d4d4;
+  --border-focus: #3b82f6;
+  
+  --status-success-text: #16a34a;
+  --status-success-bg: #dcfce7;
+  --status-success-border: #bbf7d0;
+  
+  --status-danger-text: #dc2626;
+  --status-danger-bg: #fee2e2;
+  --status-danger-border: #fecaca;
+  
+  --status-warning-text: #d97706;
+  --status-warning-bg: #fef3c7;
+  --status-warning-border: #fde68a;
+  
+  --status-info-text: #2563eb;
+  --status-info-bg: #dbeafe;
+  --status-info-border: #bfdbfe;
+}
+
+[data-theme='dark'],
+.dark {
+  /* Dark theme */
+  --surface-default: #1a1a1a;
+  --surface-elevated: #262626;
+  --surface-subtle: #1f1f1f;
+  --surface-hover: #2d2d2d;
+  --surface-active: #333333;
+  
+  --text-primary: #fafafa;
+  --text-secondary: #d4d4d4;
+  --text-muted: #737373;
+  --text-inverse: #1a1a1a;
+  --text-link: #60a5fa;
+  
+  --border-default: #404040;
+  --border-subtle: #262626;
+  --border-strong: #525252;
+  --border-focus: #3b82f6;
+  
+  --status-success-text: #4ade80;
+  --status-success-bg: rgba(74, 222, 128, 0.1);
+  --status-success-border: #15803d;
+  
+  --status-danger-text: #f87171;
+  --status-danger-bg: rgba(248, 113, 113, 0.1);
+  --status-danger-border: #b91c1c;
+  
+  --status-warning-text: #fbbf24;
+  --status-warning-bg: rgba(251, 191, 36, 0.1);
+  --status-warning-border: #b45309;
+  
+  --status-info-text: #60a5fa;
+  --status-info-bg: rgba(96, 165, 250, 0.1);
+  --status-info-border: #1d4ed8;
+}
+
+/* Smooth transitions between themes */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Disable transitions on theme change to avoid flashing */
+.theme-transitioning * {
+  transition: none !important;
+}
