@@ -421,7 +421,7 @@ function FeaturesOverview() {
         <h3 className="font-semibold text-gray-900 mb-4">Visual Priority Indicators</h3>
         <div className="space-y-4">
           <div>
-            <h4 className="font-medium text-gray-900 mb-3">Overdue Items (>3 days):</h4>
+            <h4 className="font-medium text-gray-900 mb-3">Overdue Items ({'>'}3 days):</h4>
             <ul className="space-y-2 text-sm text-gray-700">
               <li className="flex items-start gap-2">
                 <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
@@ -451,7 +451,7 @@ function FeaturesOverview() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-4 h-4 mt-0.5 flex-shrink-0 text-red-600">•</span>
-                <span>>3 days: Red bold (overdue, needs follow-up)</span>
+                <span>{'>'}3 days: Red bold (overdue, needs follow-up)</span>
               </li>
             </ul>
           </div>

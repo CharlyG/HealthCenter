@@ -438,7 +438,7 @@ export default function OperationalHeatmapDemoPage() {
               ]}
               benefit="New office achieved 85% utilization from day 1 with optimal staffing"
             />
-          </UseCaseCard>
+          </CardContent>
         </Card>
 
         {/* Try It Out */}

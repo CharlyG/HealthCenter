@@ -498,7 +498,7 @@ export default function VisitPreparationPanelDemoPage() {
               ]}
               benefit="Confirmed medication change compliance and positive response"
             />
-          </UseCaseCard>
+          </CardContent>
         </Card>
 
         {/* Try It Out */}

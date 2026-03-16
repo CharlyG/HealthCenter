@@ -1443,9 +1443,9 @@ function SurroundingSkinSection({ values, onChange }: SectionProps) {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="none">None</SelectItem>
-                <SelectItem value="mild">Mild (< 2cm)</SelectItem>
+                <SelectItem value="mild">Mild ({'<'} 2cm)</SelectItem>
                 <SelectItem value="moderate">Moderate (2-4cm)</SelectItem>
-                <SelectItem value="severe">Severe (> 4cm)</SelectItem>
+                <SelectItem value="severe">Severe ({'>'} 4cm)</SelectItem>
               </SelectContent>
             </Select>
           </FormField>

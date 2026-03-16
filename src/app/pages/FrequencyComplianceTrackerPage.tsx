@@ -307,7 +307,7 @@ export default function FrequencyComplianceTrackerPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-4 h-4 text-green-600 mt-0.5" />
-                      <span><strong>Critical Status:</strong> >30% behind triggers critical alert</span>
+                      <span><strong>Critical Status:</strong> {'>'}30% behind triggers critical alert</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-4 h-4 text-green-600 mt-0.5" />

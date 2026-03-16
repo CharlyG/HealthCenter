@@ -562,7 +562,7 @@ export default function QAAdvancedSystemPage() {
                           <div>
                             <div className="font-medium text-gray-900">{reviewer.name}</div>
                             <div className="text-xs text-gray-600">
-                              {reviewer.avgTurnaroundh avg turnaround
+                              {reviewer.avgTurnaround} days avg turnaround
                             </div>
                           </div>
                         </div>

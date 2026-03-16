@@ -329,7 +329,7 @@ function WorkflowInformation() {
               </li>
               <li className="flex items-start gap-2">
                 <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                <span>Color-coded: Amber (1-3 days), Red (>3 days overdue)</span>
+                <span>Color-coded: Amber (1-3 days), Red ({'>'}3 days overdue)</span>
               </li>
             </ul>
           </div>

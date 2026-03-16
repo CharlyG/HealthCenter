@@ -398,7 +398,6 @@ const MOCK_COMPLIANCE_ISSUES: ComplianceIssue[] = [
     detectedDate: '2026-03-08',
     resolvedDate: '2026-03-09T11:00:00Z',
     assessmentType: 'Wound Assessment',
-    status: 'resolved',
     lastAction: 'Document completed and signed',
     lastActionDate: '2026-03-09T11:00:00Z',
     lastActionBy: 'Jennifer Adams, RN',

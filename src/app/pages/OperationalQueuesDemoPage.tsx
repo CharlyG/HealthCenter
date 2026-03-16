@@ -277,7 +277,7 @@ export default function OperationalQueuesDemoPage() {
               ]}
               result="Documentation compliance restored"
             />
-          </UseCaseCard>
+          </CardContent>
         </Card>
 
         {/* Implementation */}
